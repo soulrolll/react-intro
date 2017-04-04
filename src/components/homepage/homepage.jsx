@@ -32,7 +32,7 @@ class Homepage extends Component {
         </div>
         <div className="row">
           <div className="col">
-            <Search searchValueEntered={this.state.searchValueEntered} />
+            <Search searchValueEntered={this.searchValueEntered} />
             {/* some controls here later? */}
           </div>
         </div>

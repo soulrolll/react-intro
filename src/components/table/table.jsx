@@ -3,6 +3,8 @@ import React, {Component, PropTypes} from 'react';
 class Table extends Component {
   render() {
 
+    console.log(this.props.searchFieldValue);
+
     /* Our for each loop */
     let rows = [];
     this.props.mpData.forEach((mp, index) => {
